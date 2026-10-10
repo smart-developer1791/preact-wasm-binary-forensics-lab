@@ -1,0 +1,28 @@
+{
+  "name": "preact-wasm-binary-forensics-lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "samples": "node scripts/generate-samples.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "date-fns": "^4.4.0",
+    "fflate": "^0.8.3",
+    "fuse.js": "^7.4.2",
+    "idb-keyval": "^6.2.5",
+    "lucide-preact": "^1.21.0",
+    "preact": "^10.29.2",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "@types/node": "^24.13.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.0"
+  }
+}
